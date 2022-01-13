@@ -5,7 +5,7 @@ The source code for the timedAction is here: `media\lua\shared\TimedActions\ISBa
 All the others are here: `media\lua\client\TimedActions`  
 After reading this, I recommend look at a timedActions that looks like what you want to do and learn from it.
 
-# What you need ?
+## What you need ?
 This is the most basic example of how to do a timed action:
 ```lua
 require "TimedActions/ISBaseTimedAction"
@@ -49,6 +49,7 @@ function MyTimedAction:new(character) -- What to call in you code
 end
 ```
 
+## To call it
 Then to call it in your code: `ISTimedActionQueue.add(MyTimedAction:new(player))`
 
 
