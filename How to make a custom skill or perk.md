@@ -12,7 +12,7 @@ Then start by writing: `VERSION = 1,`
 
 
 ## Add a custom categories
-To add a category, you must then enter this code:
+To add a category, you must then write this:
 ```
 perk MyPerkCat
 {
