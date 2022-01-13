@@ -39,11 +39,12 @@ TraitFactory.addTrait("MyTrait",                          -- Incode name to refe
 ```lua
 local function initTOCTraits()
     local amp1 = TraitFactory.addTrait("amputee1", getText("UI_trait_Amputee1"), -8, getText("UI_trait_Amputee1desc"), false, false);
-    amp1:addXPBoost(Perks.LeftHand, 4)
+    amp1:addXPBoost(Perks.LeftHand, 4);
     local amp2 = TraitFactory.addTrait("amputee2", getText("UI_trait_Amputee2"), -10, getText("UI_trait_Amputee2desc"), false, false);
-    amp2:addXPBoost(Perks.LeftHand, 4)
+    amp2:addXPBoost(Perks.LeftHand, 4);
     local amp3 = TraitFactory.addTrait("amputee3", getText("UI_trait_Amputee3"), -20, getText("UI_trait_Amputee3desc"), false, false);
-    amp3:addXPBoost(Perks.LeftHand, 4)
+    amp3:addXPBoost(Perks.LeftHand, 4);
+    amp3:getFreeRecipes():add("Make metal hand");
     TraitFactory.addTrait("Insensitive", getText("UI_trait_Insensitive"), 6, getText("UI_trait_Insensitivedesc"), false, false);
     TraitFactory.setMutualExclusive("amputee1", "amputee2");
     TraitFactory.setMutualExclusive("amputee1", "amputee3");
