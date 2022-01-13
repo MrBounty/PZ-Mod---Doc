@@ -35,6 +35,9 @@ TraitFactory.addTrait("MyTrait",                          -- Incode name to refe
 | Add a trait to a player | `player:getTraits():add("MyTrait")` |
 | Remove a trait to a player | `player:getTraits():remove("MyTrait")` |
 
+## Setup the icon
+It's simple. Put an 18x18 pixel .png file of the name `trait_MyTrait.png` in `media/ui/Traits` and you're done.
+
 ## Exemple of my mod
 ```lua
 local function initTOCTraits()
