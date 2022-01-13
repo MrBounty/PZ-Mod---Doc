@@ -1,5 +1,5 @@
 # What a trait ? 
-Traits are modifiers, positive and negative, available to the player. Some traits can be chosen during character creation (indicated by a points value) and others may be given with their choice of occupation, also known as hobbies. Multiple presets can be made to save a combination of a profession and multiple other traits which makes it useful for players that want to quickly jump right into the apocalypse.
+Traits are modifiers, positive and negative, available to the player. Some traits can be chosen during character creation (indicated by a points value) and others may be given with their choice of occupation, also known as hobbies.
 
 ## Create the trait
 To start, you have to create a function in a new .lua file in `media\lua\client` which will be triggered when the game starts.  
