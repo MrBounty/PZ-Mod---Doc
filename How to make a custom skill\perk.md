@@ -125,3 +125,11 @@ perk RightHand
 	xp10 = 9000,
 }
 ```
+And the `IG_UI_EN.txt`:
+```
+IGUI_EN = {
+    IGUI_perks_RightHand = "Right hand",
+    IGUI_perks_LeftHand = "Left hand",
+    IGUI_perks_Protheses = "Protheses skills",
+}
+```
