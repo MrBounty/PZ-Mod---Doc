@@ -1,6 +1,7 @@
 # PZ Mod - Doc
-Project zomboid modding set of information
-
+Project zomboid modding set of information. It is not very complete or detailed for the moment but it is only the beginning.  
+I highly recommend to check the [FWolfe Zomboid-Modding-Guide](https://github.com/FWolfe/Zomboid-Modding-Guide#required-tools-software)  
+If you have any questions, the best place is the [official discord](https://discord.com/invite/theindiestone) modding channel.
 
 ## FAQ
 How do I setup my folder for my mod ? : [link](https://github.com/FWolfe/Zomboid-Modding-Guide/blob/master/structure/README.md)  
