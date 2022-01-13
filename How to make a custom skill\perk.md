@@ -67,8 +67,9 @@ The second argument is the value of xp added. 1 add 0.25xp, so here 4 add a poin
 Get the level of a perk: `player:getPerkLevel(Perks.Doctor)`  
 Get the xp of a perk: `player:getXp():getXP(Perks.Doctor)`
 
-## Exemple of the perks.txt of my mod
-This is the perks.txt I am using for my mod "The only cure" as exemple
+## Exemple of my mod
+This is the files I am using for my mod "The only cure" as exemple.
+The `perks.txt`:
 ```
 VERSION = 1,
 
