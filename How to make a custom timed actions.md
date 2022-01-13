@@ -84,6 +84,7 @@ end
 | ------------- | ------------- |
 | Add item to inventory | `self.character:getInventory():addItem("Base.YourItem")` |
 | Remove item from inventory | `self.surgeon:getInventory():Remove(self.item)` |
+| Trigger event | `self.character:reportEvent("EventLootItem")` |
 
 
 ### MyTimedAction:update()
