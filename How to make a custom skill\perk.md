@@ -54,7 +54,7 @@ perk MyPerk
 	xp10 = 9000,
 }
 ```  
-Parent is the category. Here we use a custom category but a category use already existing category like crafting
+Parent is the category. Here we use a custom category but a already existing category like crafting can be use
 
 
 ## Add xp to the skill
