@@ -70,7 +70,7 @@ Get the level of a perk: `player:getPerkLevel(Perks.Doctor)`
 Get the xp of a perk: `player:getXp():getXP(Perks.Doctor)`
 
 ## Exemple of my mod
-This is the files I am using for my mod "The only cure" as exemple.
+This is the files I am using for my mod "The only cure" as exemple.  
 The `perks.txt`:
 ```
 VERSION = 1,
