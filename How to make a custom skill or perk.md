@@ -1,5 +1,5 @@
 # What a skill/perk ?
-Skill and perk are the same thing.
+Skill and perk are the same thing.  
 Skills are abilities a character has learned, with their proficiency at that skill quantified by its skill level. The skill level can be increased by gaining a sufficient amount of experience points (XP).
 
 Skills are grouped into categories. There are currently five main skill categories: agility, combat, crafting, firearm, and survivalist. Each of these contains multiple skills. There is also a passive category, containing the fitness and strength skills.
