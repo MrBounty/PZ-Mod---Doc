@@ -11,6 +11,7 @@ Also work with vanilla timedAction like `ISTimedActionQueue.add(ISAddFuel:new(ch
 
 
 ## Make a custom timedAction
+Make a file `MyTimedAction.lua` in `media\lua\client\TimedActions`.  
 This is the most basic example of how to do a timed action:
 ```lua
 require "TimedActions/ISBaseTimedAction"
