@@ -8,7 +8,7 @@ I will assume you have the steam version of the game.
 
 -Copy and paste then 2 time, rename then as you want. Like `noSteam Host` and `noSteam Client`  
 
--Go in the both .bat and change `-Dzomboid.steam=1` to `-Dzomboid.steam=0`. If you want a debug version, add `-debug` at the end of the line with `-Dzomboid.steam=`. Host can't be debug  
+-Go in the both .bat and change `-Dzomboid.steam=1` to `-Dzomboid.steam=0`. If you want a debug version, add `-debug` at the end of the line with `-Dzomboid.steam=`
 
 -Go in the both .json and change `-Dzomboid.steam=1` to `-Dzomboid.steam=0`  
 
@@ -20,4 +20,6 @@ I will assume you have the steam version of the game.
 
 -Start the server  
 
--Join the local server from the other game with the IP `127.0.0.1` ou `localhost`
+-Join the local server from the other game with the IP `127.0.0.1` ou `localhost`  
+
+-To pass in admin use the commande `/setaccesslevel username admin`
