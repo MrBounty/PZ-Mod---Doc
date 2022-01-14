@@ -3,6 +3,7 @@ The reason is quite simple, to test the multiplayer functionality of your mod.
 
 ## How ?
 I will assume you have the steam version of the game.  
+
 -First start by going to the game files, the root folder. And found the `ProjectZomboid64.bat` and `ProjectZomboid64.json`  
 
 -Copy and paste then 2 time, rename then as you want. Like `noSteam Host` and `noSteam Client`  
