@@ -69,6 +69,48 @@ The second argument is the value of xp added. 1 add 0.25xp, so here 4 add a poin
 Get the level of a perk: `player:getPerkLevel(Perks.Doctor)`  
 Get the xp of a perk: `player:getXp():getXP(Perks.Doctor)`
 
+## List of perks
+```
+- PASSIVE PERKS
+- Strength
+- Fitness
+
+- COMBAT PERKS
+- Blunt
+- SmallBlunt
+- LongBlade
+- SmallBlade
+- Axe
+- Spear
+- Maintenance
+
+- FIREARMS PERKS
+- Aiming
+- Reloading
+
+- AGILITY PERKS
+- Sprinting
+- Nimble
+- Sneaking
+
+- CRAFTING PERKS
+- Carpentry
+- Woodwork
+- Cooking
+- Farming
+- Doctor
+- Electricity
+- Mechanics
+- MetalWelding
+- Metalworking
+- Tailoring
+
+- SURVIVALIST PERKS
+- Fishing
+- Trapping
+- Foraging
+```
+
 ## Exemple of my mod
 This is the files I am using for my mod "The only cure" as exemple.  
 The `perks.txt`:
