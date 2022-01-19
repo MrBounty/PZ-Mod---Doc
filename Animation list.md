@@ -1,14 +1,17 @@
-# What is this list ?
-This is a non-exhaustive list of animation names to use with this function `self:setActionAnim(Name)` in a timed action.
+# setActionAnim
+This is a non-exhaustive list of animation names to use with this function `self:setActionAnim(Name)` in a timed action.  
 [See this link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20make%20a%20custom%20timed%20actions.md)
+
+## Equip:
 ```
-Equip:
-- "WearClothing"
+- "WearClothing" (See "WearClothingLocation" above)
 - "DetachItem"
 - "UnequipItem"
 - "AttachItem"
+```
 
-Craft:
+## Craft:
+```
 - "Craft"
 - "Build"
 - "RemoveCurtain"
@@ -23,8 +26,10 @@ Craft:
 - CharacterActionAnims.Build
 - CharacterActionAnims.BuildLow
 - CharacterActionAnims.Destroy
+```
 
-Vehicle:
+## Vehicle:
+```
 - "refuelgascan"
 - "VehicleTrailer"
 - "VehicleWorkOnTire"
@@ -33,8 +38,10 @@ Vehicle:
 - "TakeGasFromVehicle"
 - "VehicleWash"
 - "refuelgascan"
+```
 
-Grass, bush, tree & dig:
+## Grass, bush, tree & dig:
+```
 - "Rake"
 - "RemoveGrass"
 - "RemoveBush"
@@ -47,21 +54,29 @@ Grass, bush, tree & dig:
 - CharacterActionAnims.DigHoe
 - CharacterActionAnims.DigPickAxe
 - CharacterActionAnims.DigTrowel
+```
 
-Eat & drink:
+## Eat & drink:
+```
 - CharacterActionAnims.Drink
 - CharacterActionAnims.Eat
+```
 
-Weapon:
+## Weapon:
+```
 - CharacterActionAnims.Reload
 - CharacterActionAnims.InsertBullets
 - CharacterActionAnims.RemoveBullets
+```
 
-Medical:
+## Medical:
+```
 - "MedicalCheck"
 - CharacterActionAnims.Bandage
+```
 
-Other:
+## Other:
+```
 - "Loot"
 - "Forage"
 - "fill_container_tap"
@@ -73,3 +88,59 @@ Other:
 - CharacterActionAnims.TakePills
 - CharacterActionAnims.Shave
 ```
+
+# setAnimVariable
+This is a non-exhaustive list of animation names to use with this function `self:setAnimVariable(arg1, arg2)` in a timed action.  
+[See this link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20make%20a%20custom%20timed%20actions.md)  
+
+## Cloth:  
+| arg1 | arg2 |
+| ---- | ---- |
+| "WearClothingLocation" | "Waist" |
+| "WearClothingLocation" | "Legs" |
+| "WearClothingLocation" | "Face" |
+| "WearClothingLocation" | "Jacket" |
+| "WearClothingLocation" | "Feet" |
+| "WearClothingLocation" | "Pullover" |
+
+## Food: 
+| arg1 | arg2 |
+| ---- | ---- |
+| "FoodType" | item:getEatType() |
+| "FoodType" | "Kettle" |
+| "FoodType" | "bottle" |
+| "FoodType" | "2handbowl" |
+| "FoodType" | "drink" |
+| "FoodType" | "plate" |
+| "FoodType" | "can" |
+| "FoodType" | "2hand" |
+
+## Bandage:  
+| arg1 | arg2 |
+| ---- | ---- |
+| "BandageType" | "Head" |
+| "BandageType" | "LowerBody" |
+| "BandageType" | "UpperBody" |
+| "BandageType" | "LeftArm" |
+| "BandageType" | "RightArm" |
+| "BandageType" | "LeftLeg" |
+| "BandageType" | "RightLeg" |
+
+## Weapon:  
+| arg1 | arg2 |
+| ---- | ---- |
+| "WeaponReloadType" | gun:getWeaponReloadType() |
+| "isLoading" | true |
+| "isUnloading" | true |
+| "isRacking" | true |
+| "RackAiming" | character:isAiming() |
+
+## Other:  
+| arg1 | arg2 |
+| ---- | ---- |
+| "LootPosition" | "Low" |
+| "LootPosition" | "" |
+| "ReadType" | "newspaper" |
+| "ReadType" | "book" |
+| "RemoveBarricade" | "CrowbarHigh" |
+| "RemoveBarricade" | "CrowbarMid" |
