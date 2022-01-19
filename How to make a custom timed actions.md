@@ -71,8 +71,8 @@ end
 ### MyTimedAction:start()
 | Description  | Functions |
 | ------------- | ------------- |
-| Add an animation  | `self:setActionAnim("MedicalCheck")` |
-| Add a cloth animation [see](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Animation%20list.md)  | `self:setActionAnim("WearClothing"); self:setAnimVariable("WearClothingLocation", "Jacket")`  |
+| Add an animation [see](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Animation%20list.md) | `self:setActionAnim("MedicalCheck")` |
+| Add a cloth animation   | `self:setActionAnim("WearClothing"); self:setAnimVariable("WearClothingLocation", "Jacket")`  |
 | Play a sound | `self.character:getEmitter():playSound("My_sound")` |
 | Make a character face something | `self.character:faceThisObject(self.generator)` |
 | Trigger event | `self.character:reportEvent("EventLootItem")` |
