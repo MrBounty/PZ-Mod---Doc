@@ -65,9 +65,9 @@ Line with a * have options below, don't forget to check it !
 
 ## Weapon:
 ```
-- CharacterActionAnims.Reload *
-- CharacterActionAnims.InsertBullets *
-- CharacterActionAnims.RemoveBullets *
+- CharacterActionAnims.Reload
+- CharacterActionAnims.InsertBullets
+- CharacterActionAnims.RemoveBullets
 ```
 
 ## Medical:
