@@ -1,23 +1,30 @@
 # What is this list ?
 This is a non-exhaustive list of animation names to use with this function `self:setActionAnim(Name)` in a timed action.
 [See this link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20make%20a%20custom%20timed%20actions.md)
-
-- "BlowTorch"
-- "Loot"
-- "Forage"
-- "SawLog"
-- "refuelgascan"
-- "fill_container_tap"
-- "drink_tap"
+```
+Equip:
+- "WearClothing"
+- "DetachItem"
+- "UnequipItem"
 - "AttachItem"
-- "Build"
+
+Craft:
 - "Craft"
-- "Rake"
+- "Build"
 - "RemoveCurtain"
 - "RemoveBarricade"
-- "Forage"
-- "WashFace"
 - "RipSheets"
+- "BlowTorch"
+- "SawLog"
+- "Forage"
+- CharacterActionAnims.Paint
+- CharacterActionAnims.Craft
+- CharacterActionAnims.Disassemble
+- CharacterActionAnims.Build
+- CharacterActionAnims.BuildLow
+- CharacterActionAnims.Destroy
+
+Vehicle:
 - "refuelgascan"
 - "VehicleTrailer"
 - "VehicleWorkOnTire"
@@ -25,35 +32,44 @@ This is a non-exhaustive list of animation names to use with this function `self
 - "ExamineVehicle"
 - "TakeGasFromVehicle"
 - "VehicleWash"
-- "WearClothing"
-- "DetachItem"
-- "UnequipItem"
-- "MedicalCheck"
+- "refuelgascan"
+
+Grass, bush, tree & dig:
+- "Rake"
 - "RemoveGrass"
 - "RemoveBush"
 - "RemoveBushKnife"
 - "RemoveBushLongBlade"
 - "RemoveBushAxe"
-- "Pour"
-- CharacterActionAnims.Bandage
 - CharacterActionAnims.Chop_tree
 - CharacterActionAnims.Dig
 - CharacterActionAnims.DigShovel
 - CharacterActionAnims.DigHoe
 - CharacterActionAnims.DigPickAxe
 - CharacterActionAnims.DigTrowel
-- CharacterActionAnims.Pour
+
+Eat & drink:
 - CharacterActionAnims.Drink
 - CharacterActionAnims.Eat
-- CharacterActionAnims.Read
-- CharacterActionAnims.Paint
-- CharacterActionAnims.Craft
-- CharacterActionAnims.Disassemble
-- CharacterActionAnims.Build
-- CharacterActionAnims.BuildLow
-- CharacterActionAnims.TakePills
-- CharacterActionAnims.Destroy
-- CharacterActionAnims.Shave
+
+Weapon:
 - CharacterActionAnims.Reload
 - CharacterActionAnims.InsertBullets
 - CharacterActionAnims.RemoveBullets
+
+Medical:
+- "MedicalCheck"
+- CharacterActionAnims.Bandage
+
+Other:
+- "Loot"
+- "Forage"
+- "fill_container_tap"
+- "drink_tap"
+- "WashFace"
+- "Pour"
+- CharacterActionAnims.Pour
+- CharacterActionAnims.Read
+- CharacterActionAnims.TakePills
+- CharacterActionAnims.Shave
+```
