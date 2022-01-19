@@ -53,29 +53,28 @@
 |DamageMakeHole| If attack damage clothes | TRUE (SpearMachete)|
 |RunAnim| Animation when running with the weapon in hand | Run_Weapon2 (SpearMachete)|
 |IdleAnim| Animation when doing nothing with the weapon in hand | Idle_Weapon2 (SpearMachete)|
-|DamageCategory| | Slash (SpearMachete)|
+|DamageCategory|Category of attack | Slash (SpearMachete)|
 |CriticalChance| Chance item to do a critical attack| 30 (SpearMachete)|
-|CritDmgMultiplier| Domage multiplier of critical attack| 10 (SpearMachete)|
-|BaseSpeed| |0.9 (SpearMachete)|
-|WeaponLength ||0.2 (DumbBell)|
-|attachmenttype| |Shovel (SpearMachete), Rifle (AssaultRifle2)|
-|ProjectileCount||1 (AssaltRifle2)|
-|ConditionLowerChanceOneIn|| 60 (AssaultRifle2)|
-|ConditionMax	| | 10 (AssaltRifle2)|
-|IsAimedFirearm	|For gun.|TRUE (AssaultRifle2)|
-|AimingPerkCritModifier	|For gun.|0 (AssaultRifle2)|
-|HitChance	|For gun.|50 (AssaultRifle2)|
-|AimingPerkMinAngleModifier	|For gun.|0.01 (AssaultRifle2)|
-|AimingPerkHitChanceModifier	|For gun.|5 (AssaultRifle2)|
-|AimingPerkRangeModifier 	|For gun.|3 (AssaultRifle2)|
-|RecoilDelay	|For gun.|0 (AssaultRifle2)|
-|ReloadTime 	|For gun.|25 (AssaultRifle2)|
-|AimingTime 	|For gun.|25 (AssaultRifle2)|
-|IsAimedFirearm	|For gun.|TRUE (AssaultRifle2)|
-|MaxAmmo  |For gun.|20 (AssaultRifle2)|
-|AmmoBox  |For gun.|308Box (AssaultRifle2)|
-|FireMode |For gun.|Single (AssaultRifle2)|
-|WeaponReloadType  |For gun.|boltaction, (AssaultRifle2)|
+|CritDmgMultiplier| Damage multiplier of critical attack| 10 (SpearMachete)|
+|BaseSpeed|Attack speed. |0.9 (SpearMachete)|
+|WeaponLength |Need more research.|0.2 (DumbBell)|
+|attachmenttype|Need more research. |Shovel (SpearMachete), Rifle (AssaultRifle2)|
+|ProjectileCount|Need more research|1 (AssaltRifle2)|
+|ConditionLowerChanceOneIn|Need more research.| 60 (AssaultRifle2)|
+|ConditionMax	|Need more research. | 10 (AssaltRifle2)|
+|IsAimedFirearm	|For gun, need more research.|TRUE (AssaultRifle2)|
+|AimingPerkCritModifier	|For gun, need more research.|0 (AssaultRifle2)|
+|HitChance	|For gun, chance to hit.|50 (AssaultRifle2)|
+|AimingPerkMinAngleModifier	|For gun, need more research.|0.01 (AssaultRifle2)|
+|AimingPerkHitChanceModifier	|For gun, need more research.|5 (AssaultRifle2)|
+|AimingPerkRangeModifier 	|For gun, need more research.|3 (AssaultRifle2)|
+|RecoilDelay	|Delay between attack, for gun.|0 (AssaultRifle2)|
+|ReloadTime 	|Delay to reload, for gun.|25 (AssaultRifle2)|
+|AimingTime 	|Delay to aim, for gun.|25 (AssaultRifle2)|
+|MaxAmmo  |For gun, need more research.|20 (AssaultRifle2)|
+|AmmoBox  |For gun, need more research.|308Box (AssaultRifle2)|
+|FireMode |For gun, need more research.|Single (AssaultRifle2)|
+|WeaponReloadType  |For gun, need more research.|boltaction (AssaultRifle2)|
 
 # Clothing
 |Parameter Name	|Effect / Description	|Example|
