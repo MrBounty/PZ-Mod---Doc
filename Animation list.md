@@ -1,10 +1,11 @@
 # setActionAnim
 This is a non-exhaustive list of animation names to use with this function `self:setActionAnim(Name)` in a timed action.  
+Line with a * have options below, don't forget to check it !  
 [See this link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20make%20a%20custom%20timed%20actions.md)
 
 ## Equip:
 ```
-- "WearClothing" (See "WearClothingLocation" above)
+- "WearClothing" *
 - "DetachItem"
 - "UnequipItem"
 - "AttachItem"
@@ -58,15 +59,15 @@ This is a non-exhaustive list of animation names to use with this function `self
 
 ## Eat & drink:
 ```
-- CharacterActionAnims.Drink
-- CharacterActionAnims.Eat
+- CharacterActionAnims.Drink *
+- CharacterActionAnims.Eat *
 ```
 
 ## Weapon:
 ```
-- CharacterActionAnims.Reload
-- CharacterActionAnims.InsertBullets
-- CharacterActionAnims.RemoveBullets
+- CharacterActionAnims.Reload *
+- CharacterActionAnims.InsertBullets *
+- CharacterActionAnims.RemoveBullets *
 ```
 
 ## Medical:
@@ -90,7 +91,8 @@ This is a non-exhaustive list of animation names to use with this function `self
 ```
 
 # setAnimVariable
-This is a non-exhaustive list of animation names to use with this function `self:setAnimVariable(arg1, arg2)` in a timed action.  
+This is a non-exhaustive list of animation names to use with this function `self:setAnimVariable(arg1, arg2)` in a timed action. 
+To an example of using spoon and fork, check `ProjectZomboid\media\lua\client\TimedActions\ISEatFoodAction.lua`, line 40.  
 [See this link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20make%20a%20custom%20timed%20actions.md)  
 
 ## Cloth:  
@@ -144,3 +146,11 @@ This is a non-exhaustive list of animation names to use with this function `self
 | "ReadType" | "book" |
 | "RemoveBarricade" | "CrowbarHigh" |
 | "RemoveBarricade" | "CrowbarMid" |
+
+# Example
+- In `ProjectZomboid\media\lua\client\TimedActions\ISEjectMagazine.lua`:
+```
+self:setAnimVariable("WeaponReloadType", self.gun:getWeaponReloadType())
+self:setAnimVariable("isUnloading", true)
+```
+[TODO] Add examples.
