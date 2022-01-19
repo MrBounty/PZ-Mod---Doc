@@ -1,5 +1,5 @@
 # setActionAnim
-This is a non-exhaustive list of animation names to use with this function `self:setActionAnim(Name)` in a timed action.[See this link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20make%20a%20custom%20timed%20actions.md)  
+This is a non-exhaustive list of animation names to use with this function `self:setActionAnim(Name)` in a timed action. [See this link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20make%20a%20custom%20timed%20actions.md)  
 Line with a * have options below, don't forget to check it !  
 
 ## Equip:
