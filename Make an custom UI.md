@@ -1,6 +1,6 @@
 # What is an UI ?
 UI are all the windows of the game. Like inventories, health panel, craft menu, ect.  
-x & y are the position on the UI; r, g, b is the color in red, blue, green and a the transparency.  
+`x, y` are the position on the UI; `r, g, b` is the color in red, blue, green and `a` the transparency.  
 
 # Make the handler
 This is the base of a UI, it's gonna display a rectangle with "Hello world" write in it.  
