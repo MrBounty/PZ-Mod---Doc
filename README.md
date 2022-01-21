@@ -10,7 +10,7 @@ How do I make a custom skill/perk ? : [link](https://github.com/MrBounty/PZ-Mod-
 How do I make a custom trait ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20make%20a%20custom%20trait.md)  
 What is the variables usables when I create a new item ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Items%20variables.md)  
 How do I make a custom timedAction ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20make%20a%20custom%20timed%20actions.md)  
-How do I make a custom UI ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Make%20an%20custom%20UI.md)
+How do I make a custom UI ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Make%20an%20custom%20UI.md)  
 How do I use the global modData ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20use%20global%20modData.md)  
 Where can I find information ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Useful%20links.md)  
 
