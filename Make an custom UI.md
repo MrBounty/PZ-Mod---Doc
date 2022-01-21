@@ -63,7 +63,7 @@ To get the size of a text: `getTextManager():MeasureStringX(UIFont.Small, "Text)
 
 ## Rectangle
 There is two type of rectangle, the full and the border:  
-`self:drawRectBorder(x, y, w, h, a, r, g, b)`
+`self:drawRectBorder(x, y, w, h, a, r, g, b)`  
 `self:drawRect(x, y, w, h, a, r, g, b)`
 
 ## Button
