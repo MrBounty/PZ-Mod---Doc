@@ -73,9 +73,8 @@ You need to add that in `MyUI:create()`, like that:
 function MyUI:create()
     local btnWid = 75
     local btnHgt = getTextManager():getFontHeight(UIFont.Small) + 2 * 4
-    local padBottom = 10
 
-    self.button = ISButton:new(math.floor((self:getWidth() - btnWid) / 2), math.floor((self:getHeight() - btnHgt) / 2), btnWid, btnHgt, "My button", self, MyUI.onOptionMouseDown);
+    self.button = ISButton:new(x, y, btnWid, btnHgt, "My button", self, MyUI.onOptionMouseDown);
     self.button.internal = "MYBUTTON";
     self.button:initialise();
     self.button:instantiate();
