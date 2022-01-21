@@ -5,32 +5,29 @@ UI are all the windows of the game. Like inventories, health panel, craft menu, 
 # Make the handler
 This is the base of a UI, it's gonna display a rectangle with "Hello world" write in it.  
 ```lua
-require "ISUI/ISPanel"
+require "ISUI/ISPanel" -- Or require "ISUI/ISPanelJoypad"
 
-MyUI = ISPanel:derive("MyUI");
+MyUI = ISPanel:derive("MyUI"); -- Or MyUI = ISPanelJoypad:derive("MyUI")
 
 function MyUI:initialise()
-    ISPanel.initialise(self);
+    ISPanel.initialise(self); -- Or ISPanelJoypad.initialise(self);
     self:create();
 end
 
-function MyUI:prerender()
-    ISPanel.prerender(self);
-    self:drawText("Hello world",0,0,1,1,1,1, UIFont.Small);
+function MyUI:prerender() -- Call before render, it's for harder stuff that need init, ect
+    ISPanel.prerender(self); -- Or ISPanelJoypad.prerender(self);
+    self:drawText("Hello world",0,0,1,1,1,1, UIFont.Small); -- You can put it in render() too
 end
 
-function MyUI:render()
+function MyUI:render() -- Use to render text and other
 end
 
-function MyUI:create()
-end
-
-function MyUI:onOptionMouseDown(button, x, y)
+function MyUI:create() -- Use to make the elements
 end
 
 function MyUI:new(x, y, width, height)
     local o = {};
-    o = ISPanel:new(x, y, width, height);
+    o = ISPanel:new(x, y, width, height); -- Or o = ISPanelJoypad:new(x, y, width, height);
     setmetatable(o, self);
     self.__index = self;
 
@@ -42,7 +39,7 @@ end
 To display and use a UI you need to create it. Once used, it must be destroyed or hide. I recommend destroying and rebuilding the UI each time because it's not more complicated on the code side and it avoids creating invisible copies of menus that stack  
 To create:  
 ```lua
-local myUI = ISGearNameUI:new(x, y, w, h);
+local myUI = MyUI:new(x, y, w, h);
 myUI.parent = self; -- Optional but rly useful
 myUI:initialise();
 myUI:addToUIManager();
@@ -75,7 +72,7 @@ You need to add that in `MyUI:create()`, like that:
 ```lua
 function MyUI:create()
     local btnWid = 75
-    local btnHgt = FONT_HGT_SMALL + 2 * 4
+    local btnHgt = getTextManager():getFontHeight(UIFont.Small) + 2 * 4
     local padBottom = 10
 
     self.button = ISButton:new(math.floor((self:getWidth() - btnWid) / 2), math.floor((self:getHeight() - btnHgt) / 2), btnWid, btnHgt, "My button", self, MyUI.onOptionMouseDown);
