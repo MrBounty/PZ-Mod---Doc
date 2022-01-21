@@ -124,6 +124,7 @@ function MyUI:create()
     end
 end
 ```
+And after that to find the text selected: `self.comboBox:getSelectedText()`
 
 ## Entry text
 Here is an example to add a entry text, file `ISTextEntryBox.lua`  
