@@ -156,7 +156,7 @@ function MyUI:create()
     self:addChild(self.scrollingList);
 end
 ```
-To get the value selected: `self.scrollingList.selected`
+To get the value selected: `self.scrollingList.selected`  
 `self.onClickItem` is the function call when an item is select.  
 Here an exemple:  
 ```lua
