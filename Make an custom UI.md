@@ -94,7 +94,7 @@ end
 ```
 
 ## Tick box
-Here is an example to add a button, file `ISTickBox.lua`  
+Here is an example to add a tick box, file `ISTickBox.lua`  
 You need to add that in `MyUI:create()`, like that: 
 ```lua
 function MyUI:create()
@@ -109,7 +109,7 @@ end
 After that, to check the value: `self.tickBox.selected[1]`
 
 ## Combo box
-Here is an example to add a button, file `ISComboBox.lua`  
+Here is an example to add a combo box, file `ISComboBox.lua`  
 You need to add that in `MyUI:create()`, like that:  
 ```lua
 function MyUI:create()
@@ -126,7 +126,7 @@ end
 ```
 
 ## Entry text
-Here is an example to add a button, file `ISTextEntryBox.lua`  
+Here is an example to add a entry text, file `ISTextEntryBox.lua`  
 You need to add that in `MyUI:create()`, like that:  
 ```lua
 function MyUI:create()
