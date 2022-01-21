@@ -51,6 +51,12 @@ myUI:setVisible(false);
 myUI:removeFromUIManager();
 ```
 
+# Useful function
+```lua
+getCore():getScreenHeight() -- Get the screen resolution
+getMouseX() -- Get position of the mouse on the screen
+```
+
 # How to add elements ?
 The foundation of an UI is the elements that we put in it. They can be custom or already present in the game.  
 They can be found in `media\lua\client\ISUI`  
