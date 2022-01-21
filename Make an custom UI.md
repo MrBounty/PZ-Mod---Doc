@@ -138,3 +138,29 @@ function MyUI:create()
 end
 ```
 After that to find the text in it: `self.name:getInternalText()`
+
+## Scrolling list
+Here is an example to add a scrolling text box, file `ISScrollingListBox.lua`  
+You need to add that in `MyUI:create()`, like that:  
+```lua
+function MyUI:create()
+    self.scrollingList = ISScrollingListBox:new(x, y, w, h)
+    self.scrollingList:initialise();
+    self.scrollingList:instantiate();
+    self.scrollingList.itemheight = 15;
+    self.scrollingList.joypadParent = self;
+    self.scrollingList.font = UIFont.Small;
+    self.scrollingList.doDrawItem = self.drawEquipList;
+    self.scrollingList:setOnMouseDownFunction(self, self.onClickItem);
+    self.scrollingList.drawBorder = true;
+    self:addChild(self.scrollingList);
+end
+```
+To get the value selected: `self.scrollingList.selected`
+`self.onClickItem` is the function call when an item is select.  
+Here an exemple:  
+```lua
+function MyUI:onClickItem()
+    print(self.scrollingList.selected)
+end
+```
