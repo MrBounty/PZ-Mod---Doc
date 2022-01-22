@@ -8,6 +8,7 @@
 | Tutorial to setup IntelliJ with the Libraries  | [Link](https://github.com/Konijima/PZ-Libraries/blob/Tutorial/README.md) |
 | Tool to not constantly having to open and close PZ while testing | [Link](https://github.com/ssjshields/pz-crash-auto-launcher) |
 | RoboMat's Modding Tutorials 2013 | [Link](https://theindiestone.com/forums/index.php?/topic/61-robomats-modding-tutorials-updated-12112013/#III4) |
+| All body locations | [Link](https://steamcommunity.com/workshop/filedetails/discussion/2695471997/3198117849820264621/)|
 | Official PZ modding wiki | [Link](https://pzwiki.net/wiki/Modding) |
 
 ## Community API
