@@ -20,6 +20,6 @@ I will assume you have the steam version of the game.
 
 -Start the server  
 
--Join the local server from the other game with the IP `127.0.0.1` ou `localhost`  
+-Join the local server from the other game with the IP `127.0.0.1` or `localhost`  
 
 -To pass in admin use the commande `/setaccesslevel username admin`
