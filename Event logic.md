@@ -33,7 +33,7 @@ Events.EveryTenMinutes.Add(everyTenMinutes)
 The `everyTenMinutes` function gonna be call every 10 in game minute.
 There is no parameters with this event.
 
-## Full example
+# Full example
 This is a full example, the player gonna say "Hello world" when press the Q key.  
 ```lua
 local function onKeyPressed(key)
