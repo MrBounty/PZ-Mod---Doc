@@ -55,6 +55,8 @@ myUI:removeFromUIManager();
 ```lua
 getCore():getScreenHeight() -- Get the screen resolution
 getMouseX() -- Get position of the mouse on the screen
+isShiftKeyDown() -- True if the shift key is down
+isCtrlKeyDown() -- True if the ctrl key is down
 ```
 
 # How to add elements ?
