@@ -256,7 +256,9 @@ function MyUI:new()
 end
 
 function onCustomUIKeyPressed(key)
-	local myUI = MyUI:new()
+	if key == 21 then
+		local myUI = MyUI:new()
+	end
 end
 
 Events.OnCustomUIKeyPressed.Add(onCustomUIKeyPressed)
