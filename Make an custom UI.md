@@ -158,7 +158,6 @@ function MyUI:create()
     self.scrollingList.itemheight = 15;
     self.scrollingList.joypadParent = self;
     self.scrollingList.font = UIFont.Small;
-    self.scrollingList.doDrawItem = self.drawEquipList;
     self.scrollingList:setOnMouseDownFunction(self, self.onClickItem);
     self.scrollingList.drawBorder = true;
     self:addChild(self.scrollingList);
