@@ -171,3 +171,92 @@ function MyUI:onClickItem()
     print(self.scrollingList.selected)
 end
 ```
+
+# Full example
+### UI that open when press Y with a button to close it and some elements
+```lua
+require "ISUI/ISPanel"
+local FONT_HGT_SMALL = getTextManager():getFontHeight(UIFont.Small)
+
+MyUI = ISPanel:derive("MyUI");
+
+function MyUI:initialise()
+    ISPanel.initialise(self);
+    self:create();
+end
+
+function MyUI:prerender()
+    ISPanel.prerender(self);
+    self:drawText("Hello !", 10 ,10, 1,1,1,1, UIFont.Small);
+end
+
+function MyUI:render()
+end
+
+function MyUI:create()
+local btnWid = 75
+    local btnHgt = FONT_HGT_SMALL + 2 * 4
+    local padBottom = 10
+
+    self.name = ISTextEntryBox:new("", 25, 60, 150, btnHgt);
+    self.name:initialise();
+    self.name:instantiate();
+    self:addChild(self.name);
+
+    self.cancel = ISButton:new(self:getWidth() - btnWid - 5, self:getHeight() - padBottom - btnHgt, btnWid, btnHgt, "Cancel", self, MyUI.onOptionMouseDown);
+    self.cancel.internal = "CANCEL";
+    self.cancel:initialise();
+    self.cancel:instantiate();
+    self.cancel.borderColor = self.buttonBorderColor;
+    self:addChild(self.cancel);
+
+    self.tick = ISTickBox:new(100, 5, 10, 10, "", nil, nil);
+    self.tick:initialise();
+    self.tick:instantiate();
+    self.tick:setAnchorLeft(true);
+    self.tick:setAnchorRight(false);
+    self.tick:setAnchorTop(false);
+    self.tick:setAnchorBottom(true);
+    self.tick.selected[1] = true;
+    self:addChild(self.tick);
+    self.tick:addOption("Test tick box");
+end
+
+function MyUI:new(x, y, width, height)
+    local o = {};
+    o = ISPanel:new(x, y, width, height);
+    setmetatable(o, self);
+    self.__index = self;
+
+    return o;
+end
+
+function MyUI:onOptionMouseDown(button, x, y)
+    if button.internal == "CANCEL" then
+    self:setVisible(false);
+        self:removeFromUIManager();
+    end
+end
+
+function MyUI:new()
+    local o = {};
+    x = getMouseX() + 10;
+    y = getMouseY() + 10;
+    o = ISPanel:new(x, y, 200, 120);
+    setmetatable(o, self);
+    self.__index = self;
+    o.variableColor={r=0.9, g=0.55, b=0.1, a=1};
+    o.borderColor = {r=0.4, g=0.4, b=0.4, a=1};
+    o.backgroundColor = {r=0, g=0, b=0, a=1};
+    o.buttonBorderColor = {r=0.7, g=0.7, b=0.7, a=0.5};
+    o.zOffsetSmallFont = 25;
+    o.moveWithMouse = false;
+
+    return o;
+end
+
+function onCustomUIKeyPressed(key)
+	local myUI = MyUI:new()
+end
+
+Events.OnCustomUIKeyPressed.Add(onCustomUIKeyPressed)
