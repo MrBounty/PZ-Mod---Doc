@@ -258,6 +258,8 @@ end
 function onCustomUIKeyPressed(key)
     if key == 21 then
         local myUI = MyUI:new()
+        myUI:initialise();
+        myUI:addToUIManager();
     end
 end
 
