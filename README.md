@@ -7,11 +7,15 @@ If you have any questions, the best place is the [official discord](https://disc
 How do I:
 - Setup my folder for my mod ? : [link](https://github.com/FWolfe/Zomboid-Modding-Guide/blob/master/structure/README.md)  
 - Make an item ? : [link](https://github.com/FWolfe/Zomboid-Modding-Guide/blob/master/scripts/README.md)  
+- Find variables can I use when I make an Item ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Items%20variables.md)  
 - Make a skill/perk ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20make%20a%20custom%20skill%20or%20perk.md)  
 - Make a trait ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20make%20a%20custom%20trait.md)  
 - Make a custom timedAction ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20make%20a%20custom%20timed%20actions.md)  
 - Make a custom UI ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Make%20an%20custom%20UI.md)  
 - Use the global modData ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20use%20global%20modData.md)  
+- Make a custom UI ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Make%20an%20custom%20UI.md)
+
+- What is an event ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Event%20logic.md)
 
 What is the variables usables when I create a new item ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Items%20variables.md)  
 Where can I find information ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Useful%20links.md)  
