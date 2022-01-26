@@ -15,7 +15,8 @@ How do I:
 - Use the global modData ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20use%20global%20modData.md)  
 - Make a custom UI ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Make%20an%20custom%20UI.md)  
 
-- What is an event ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Event%20logic.md)
+
+- What is an event ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Event%20logic.md)  
 
 What is the variables usables when I create a new item ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Items%20variables.md)  
 Where can I find information ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Useful%20links.md)  
