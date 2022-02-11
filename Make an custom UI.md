@@ -53,7 +53,7 @@ myUI:removeFromUIManager();
 
 # Useful function
 ```lua
-getCore():getScreenWidht() -- Get the screen resolution
+getCore():getScreenWidth() -- Get the screen resolution
 getCore():getScreenHeight() -- Get the screen resolution
 getMouseX() -- Get position of the mouse on the screen
 getMouseY() -- Get position of the mouse on the screen
