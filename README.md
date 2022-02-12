@@ -13,6 +13,7 @@ How do I:
 - Make a custom timedAction ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20make%20a%20custom%20timed%20actions.md)  
 - Make a custom UI ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Make%20an%20custom%20UI.md)  
 - Use the global modData ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20use%20global%20modData.md)  
+- Save data ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Save%20data.md)  
 
 
 What is an event ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Event%20logic.md)  
