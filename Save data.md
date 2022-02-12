@@ -69,14 +69,14 @@ local function decodeTable(txt)
 end
 
 function SaveFile(t, name)
-    local fileWriterObj = getFileWriter(name, true, false);
+    local fileWriterObj = getFileWriter(name .. ".txt", true, false);
     local text = encodeLayout(t);
     fileWriterObj:write(text);
     fileWriterObj:close();
 end
 
 function LoadFile(name)
-    local fileReaderObj = getFileReader(name, true);
+    local fileReaderObj = getFileReader(name .. ".txt", true);
     local text = "";
     local line = fileReaderObj:readLine();
     while line ~= nil do
@@ -93,7 +93,7 @@ end
 
 Then use it like that:
 ```lua
-SaveFile(myTable, "MyFile.txt")
+SaveFile(myTable, "MyFile")
 
-myTable = LoadFile("MyFile.txt")
+myTable = LoadFile("MyFile")
 ```
