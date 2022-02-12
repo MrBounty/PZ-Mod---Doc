@@ -34,7 +34,8 @@ end
 ```
 
 ### Custom
-Otherwise I made a small function to save a table with a .txt number, boolean and text:  
+Otherwise I made a small function to save one table with a .txt.  
+It's only store number, boolean and string with one word. But that enough in a lot of case.  
 ```lua
 -- name is a path with the name of the file and the extension. Like that: name = "MyFile.txt"
 -- File in C:\Users\User\Zomboid\Lua
