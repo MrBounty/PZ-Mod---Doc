@@ -1,8 +1,10 @@
 I will give you two ways to store data.  
 
 ### Json
-The first is with the Json.lua. [File](https://discord.com/channels/136501320340209664/232196827577974784/940523841027964948)  
-Like that:
+The first is with the Json.lua.  
+[File](https://discord.com/channels/136501320340209664/232196827577974784/940523841027964948)  
+[Like2](https://github.com/rxi/json.lua)  
+Then use it like that:
 ```lua
 local Json = require("Json");
 
