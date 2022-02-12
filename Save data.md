@@ -1,6 +1,6 @@
 ## Intro
 I will give you two ways to store data.  
-Both way can store one table by file.  
+Both way store one table by file.  
 
 ### Json
 The first is with Json.lua.  
