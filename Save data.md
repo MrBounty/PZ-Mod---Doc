@@ -86,3 +86,10 @@ function LoadFile(name)
     end
 end
 ```
+
+Then use it like that:
+```lua
+SaveFile(myTable, "MyFile.txt")
+
+myTable = LoadFile("MyFile.txt")
+```
