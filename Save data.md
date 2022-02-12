@@ -1,4 +1,6 @@
 I will give you two ways to store data.  
+
+### Json
 The first is with the Json.lua. [File](https://discord.com/channels/136501320340209664/232196827577974784/940523841027964948)  
 Like that:
 ```lua
@@ -29,7 +31,7 @@ local function Load()
 end
 ```
 
-
+### Custom
 Otherwise I made a small function to save a table with a .txt number, boolean and text:  
 ```lua
 -- name is a path with the name of the file and the extension. Like that: name = "MyFile.txt"
