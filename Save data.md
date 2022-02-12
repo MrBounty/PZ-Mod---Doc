@@ -1,7 +1,7 @@
 I will give you two ways to store data.  
 
 ### Json
-The first is with the Json.lua.  
+The first is with Json.lua.  
 [Link](https://discord.com/channels/136501320340209664/232196827577974784/940523841027964948) 
 [Like2](https://github.com/rxi/json.lua)  
 Then use it like that:
