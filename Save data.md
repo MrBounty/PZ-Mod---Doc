@@ -4,7 +4,7 @@ Both way store one table by file.
 
 ### Json
 The first is with Json.lua  
-Dl and add the file to the `client` folder.  
+Dl and add the file to the `client` folder. 
 [Link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Others/Json.lua)  
 Then use it like that:
 ```lua
