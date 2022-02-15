@@ -40,13 +40,16 @@ To display and use a UI you need to create it. Once used, it must be destroyed o
 To create:  
 ```lua
 local myUI = MyUI:new(x, y, w, h);
-myUI.parent = self; -- Optional but rly useful
 myUI:initialise();
 myUI:addToUIManager();
 ```
-To destroy:  
+To open:  
 ```lua
-myUI.parent.myUI = nil; -- If you use parent
+myUI:setVisible(true);
+myUI:addToUIManager();
+```
+To close:  
+```lua
 myUI:setVisible(false);
 myUI:removeFromUIManager();
 ```
