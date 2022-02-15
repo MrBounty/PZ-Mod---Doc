@@ -35,6 +35,8 @@ local function Load()
 end
 ```
 
+You can find other lua library to save .json [where](http://lua-users.org/wiki/JsonModules)
+
 ### Custom
 Otherwise I made a small function to save one table with a .txt.  
 **It's only store number, boolean and string.** But that enough in a lot of case.  
