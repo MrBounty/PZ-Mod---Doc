@@ -15,7 +15,7 @@ local theTable = {};
 
 local function Save()
     local fileWriterObj = getFileWriter("file_theTable.json", true, false);
-    local json = Json.Encode(theTable);
+    local json = Json.encode(theTable);
     fileWriterObj:write(json);
     fileWriterObj:close();
 end
@@ -31,7 +31,7 @@ local function Load()
     fileReaderObj:close();
 
     if json and json ~= "" then
-        theTable = Json.Decode(json);
+        theTable = Json.decode(json);
     end
 end
 ```
