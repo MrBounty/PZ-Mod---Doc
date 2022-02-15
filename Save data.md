@@ -70,7 +70,7 @@ end
 
 function SaveFile(t, name)
     local fileWriterObj = getFileWriter(name .. ".txt", true, false);
-    local text = encodeLayout(t);
+    local text = encodeTable(t);
     fileWriterObj:write(text);
     fileWriterObj:close();
 end
