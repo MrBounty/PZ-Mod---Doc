@@ -227,15 +227,6 @@ local btnWid = 75
     self.tick:addOption("Test tick box");
 end
 
-function MyUI:new(x, y, width, height)
-    local o = {};
-    o = ISPanel:new(x, y, width, height);
-    setmetatable(o, self);
-    self.__index = self;
-
-    return o;
-end
-
 function MyUI:onOptionMouseDown(button, x, y)
     if button.internal == "CANCEL" then
     self:setVisible(false);
