@@ -1,7 +1,5 @@
-# Why do that ?
-The reason is quite simple, to test the multiplayer functionality of your mod.
-
-## How ?
+## Local
+This is the method that uses the host button from the main menu. It's like a server but without the console server. I recommend using the other method with the dedicated server to have it because server-side errors are displayed in it and it facilitates/accelerates disconnection/reconnection.  
 I will assume you have the steam version of the game.  
 
 -First start by going to the game files, the root folder. And found `ProjectZomboid64.bat` and `ProjectZomboid64.json`  
@@ -24,4 +22,6 @@ I will assume you have the steam version of the game.
 
 -To pass in admin use the commande `/setaccesslevel username admin`
 
-[TODO] Add tuto for server
+## Server
+You can also do it using a nosteam dedicated server. Follow [this guide](https://pzwiki.net/wiki/Dedicated_Server) to make a server.  
+After the server is launched, you can connect the same way, using `localhost`.
