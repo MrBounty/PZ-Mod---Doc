@@ -14,7 +14,7 @@ I will assume you have the steam version of the game.
 
 -In one game, click on Host  
 
--Change the options of your server to add you mod and other, you don't have steam workshop anymore  
+-Change the options of your server to add you mod and other, you don't have steam workshop anymore so you need to put your mod in `C:\Users\User\Zomboid\mods`  
 
 -Start the server  
 
