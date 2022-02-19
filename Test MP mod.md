@@ -24,4 +24,5 @@ I will assume you have the steam version of the game.
 
 ## Server
 You can also do it using a nosteam dedicated server. Follow [this guide](https://pzwiki.net/wiki/Dedicated_Server) to make a server.  
-After the server is launched, you can connect the same way, using `localhost`.
+After the server is launched, you can connect the same way, using `localhost` and two nosteam game.  
+You can add you username as admin from the server console.
