@@ -70,11 +70,13 @@ They can be found in `media\lua\client\ISUI`
 Each time I specify the file because I strongly recommend going to see them to see the functions linked to each one. I can't list everything here.  
 
 ## Text
+(Not an element)  
 To display text use that in `prerender()` or `render()`:  
 `self:drawText("Text", x, y, r, g, b, a, UIFont.Small)`  
 To get the size of a text: `getTextManager():MeasureStringX(UIFont.Small, "Text)`
 
 ## Rectangle
+(Not an element)  
 There is two type of rectangle, the full and the border:  
 `self:drawRectBorder(x, y, w, h, a, r, g, b)`  
 `self:drawRect(x, y, w, h, a, r, g, b)`
