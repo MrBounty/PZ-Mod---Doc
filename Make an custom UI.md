@@ -36,7 +36,7 @@ end
 ```
 
 # How to display and remove my UI ?
-To display and use a UI you need to create it. Once used, it must be destroyed or hide. I recommend destroying and rebuilding the UI each time because it's not more complicated on the code side and it avoids creating invisible copies of menus that stack  
+To display and use a UI you need to create it one and then set isVisible.    
 To create:  
 ```lua
 local myUI = MyUI:new(x, y, w, h);
