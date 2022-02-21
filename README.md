@@ -11,7 +11,7 @@ How do I:
 - Make a skill/perk ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20make%20a%20custom%20skill%20or%20perk.md)  
 - Make a trait ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20make%20a%20custom%20trait.md)  
 - Make a custom timedAction ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20make%20a%20custom%20timed%20actions.md)  
-- Make a custom UI ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Make%20an%20custom%20UI.md)  
+- Make a custom UI ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Make%20an%20custom%20UI.md) or use my [UI library](https://steamcommunity.com/sharedfiles/filedetails/?id=2760035814)  
 - Use the global modData ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/How%20to%20use%20global%20modData.md)  
 - Save data ? : [link](https://github.com/MrBounty/PZ-Mod---Doc/blob/main/Save%20data.md)  
 
@@ -24,5 +24,3 @@ Where can I find information ? : [link](https://github.com/MrBounty/PZ-Mod---Doc
 ## TODO
 * Explain translations
 * Add link for mapping
-* Explain the events system
-* Make a full exemple of how to make a simple mod to add an item
