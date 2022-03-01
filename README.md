@@ -22,5 +22,4 @@ Where can I find information ? : [link](https://github.com/MrBounty/PZ-Mod---Doc
 
 
 ## TODO
-* Explain translations
-* Add link for mapping
+Better readme
