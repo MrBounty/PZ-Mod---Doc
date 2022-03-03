@@ -3,8 +3,8 @@ UI are all the windows of the game. Like inventories, health panel, craft menu, 
 `x, y` are the position on the UI; `r, g, b` is the color in red, blue, green and `a` the transparency.  
 
 # Make the handler
-Note: ISPanel car be change to ISWindow or ISCollapsableWindow.  
 This is the base of a UI, it's gonna display a rectangle with "Hello world" write in it.  
+Note: ISPanel car be change to ISWindow or ISCollapsableWindow.  
 ```lua
 require "ISUI/ISPanel"
 
