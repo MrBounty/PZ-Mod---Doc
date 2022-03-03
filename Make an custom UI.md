@@ -3,19 +3,20 @@ UI are all the windows of the game. Like inventories, health panel, craft menu, 
 `x, y` are the position on the UI; `r, g, b` is the color in red, blue, green and `a` the transparency.  
 
 # Make the handler
+Note: ISPanel car be change to ISWindow or ISCollapsableWindow.  
 This is the base of a UI, it's gonna display a rectangle with "Hello world" write in it.  
 ```lua
-require "ISUI/ISPanel" -- Or require "ISUI/ISPanelJoypad"
+require "ISUI/ISPanel"
 
-MyUI = ISPanel:derive("MyUI"); -- Or MyUI = ISPanelJoypad:derive("MyUI")
+MyUI = ISPanel:derive("MyUI");
 
 function MyUI:initialise()
-    ISPanel.initialise(self); -- Or ISPanelJoypad.initialise(self);
+    ISPanel.initialise(self);
     self:create();
 end
 
 function MyUI:prerender() -- Call before render, it's for harder stuff that need init, ect
-    ISPanel.prerender(self); -- Or ISPanelJoypad.prerender(self);
+    ISPanel.prerender(self);
     self:drawText("Hello world",0,0,1,1,1,1, UIFont.Small); -- You can put it in render() too
 end
 
@@ -27,7 +28,7 @@ end
 
 function MyUI:new(x, y, width, height)
     local o = {};
-    o = ISPanel:new(x, y, width, height); -- Or o = ISPanelJoypad:new(x, y, width, height);
+    o = ISPanel:new(x, y, width, height);
     setmetatable(o, self);
     self.__index = self;
 
