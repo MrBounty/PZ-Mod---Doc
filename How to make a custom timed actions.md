@@ -26,7 +26,7 @@ function MyTimedAction:update() -- Trigger every game update when the action is 
     print("Action is update");
 end
 
-function TOC_CutArm:waitToStart() -- Wait until return false
+function MyTimedAction:waitToStart() -- Wait until return false
     return false;
 end
 
