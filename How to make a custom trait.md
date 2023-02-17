@@ -21,8 +21,8 @@ TraitFactory.addTrait("MyTrait",                          -- Incode name to refe
                       getText("UI_trait_MyTrait"),        -- Trait name in game
                       -8,                                 -- Cost of the trait, can be positive or negative
                       getText("UI_trait_MyTraitdesc"),    -- Description of the trait
-                      false,                              -- No idea
-                      false)                              -- I guess it's if the trait is related to a profession
+                      false,                              -- Whether a trait is related to a profession
+                      false)                              -- Whether to remove a trait in Multiplayer
  ```
  
 ## Main usable functions
