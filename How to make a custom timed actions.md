@@ -56,13 +56,13 @@ end
 ```
 
 
-## Exemples of functions to call
+## Examples of functions to call
 
 ### MyTimedAction:new()
 | Description  | Functions |
 | ------------- | ------------- |
-| Prevents doing the action while running  | `o.stopOnWalk = true` |
-| Prevents doing the action while walking  | `o.stopOnRun = true`  |
+| Prevents doing the action while walking  | `o.stopOnWalk = true` |
+| Prevents doing the action while running  | `o.stopOnRun = true`  |
 | Ignore added time if hand is injured | `o.ignoreHandsWounds = false` |
 | Force progress bar | `o.forceProgressBar = true` |
 | Disable hotbar:update() | `o.fromHotbar = true` |
