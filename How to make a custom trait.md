@@ -21,8 +21,8 @@ TraitFactory.addTrait("MyTrait",                          -- Incode name to refe
                       getText("UI_trait_MyTrait"),        -- Trait name in game
                       -8,                                 -- Cost of the trait, can be positive or negative
                       getText("UI_trait_MyTraitdesc"),    -- Description of the trait
-                      false,                              -- No idea
-                      false)                              -- I guess it's if the trait is related to a profession
+                      false,                              -- Linked to prof, seems to not be used
+                      false)                              -- Remove for MP server 
  ```
  
 ## Main usable functions
